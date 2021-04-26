@@ -6,5 +6,10 @@ Mobile Ready
 Lightning Web Component
 Salesforce Unauthenticated Community
 
+# Pull Request are more than welcome
+
+# Managed By Ashish Singh
+
+# Open Source
 
 
