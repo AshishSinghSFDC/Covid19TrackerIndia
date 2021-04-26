@@ -1,10 +1,10 @@
 # Salesforce LWC - Realtime Covid Tracker
 
-Project Consumes Rest Service https://api.rootnet.in/covid19-in/stats/latest
-Includes BootStrap
-Mobile Ready
-Lightning Web Component
-Salesforce Unauthenticated Community
+## Project Consumes Rest Service https://api.rootnet.in/covid19-in/stats/latest 
+## Includes BootStrap
+## Mobile Ready
+## Lightning Web Component
+## Salesforce Unauthenticated Community
 
 
 # Usage
