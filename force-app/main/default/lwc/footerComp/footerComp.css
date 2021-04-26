@@ -1,0 +1,16 @@
+.footer-link {
+  margin-right: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #66bfbf;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+.bottom-container {
+  text-align: center;
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+<template>
+
+    <c-spinner-Reuseable isloaded={isLoaded}></c-spinner-Reuseable>
+    <lightning-card variant="Narrow" title="Covid Tracker India" icon-name="action:announcement">
+
+        <lightning-layout multiple-rows>
+            <lightning-layout-item flexibility="auto" size="12" small-device-size="6" medium-device-size="4"
+                large-device-size="3" padding="around-small">
+                <div class="slds-box slds-box_x-small">
+                    <lightning-card variant="Narrow" title="Total Cases" icon-name="utility:note">
+                        Total Cases : {covidSummary.total}
+                    </lightning-card>
+                </div>
+            </lightning-layout-item>
+
+            <lightning-layout-item flexibility="auto" size="12" small-device-size="6" medium-device-size="4"
+                large-device-size="3" padding="around-small">
+                <div class="slds-box slds-box_x-small">
+                    <lightning-card variant="Narrow" title="Total Active" icon-name="utility:frozen">
+                        Total Active : {activeCases}
+                    </lightning-card>
+                </div>
+            </lightning-layout-item>
+
+            <lightning-layout-item flexibility="auto" size="12" small-device-size="6" medium-device-size="4"
+                large-device-size="3" padding="around-small">
+                <div class="slds-box slds-box_x-small">
+                    <lightning-card variant="Narrow" title="Total Recovered" icon-name="utility:trailblazer_ext">
+                        Total Recovered : {covidSummary.discharged}
+                    </lightning-card>
+                </div>
+            </lightning-layout-item>
+
+            <lightning-layout-item flexibility="auto" size="12" small-device-size="6" medium-device-size="4"
+                large-device-size="3" padding="around-small">
+                <div class="slds-box slds-box_x-small">
+                    <lightning-card variant="Narrow" title="Death" icon-name="utility:sentiment_negative">
+                        Total Deaths : {covidSummary.deaths}
+                    </lightning-card>
+                </div>
+            </lightning-layout-item>
+
+        </lightning-layout>
+    </lightning-card>
+</template>
